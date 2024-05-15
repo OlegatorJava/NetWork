@@ -1,0 +1,118 @@
+INFO  2024-03-20 01:45:02 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+ERROR 2024-03-20 01:50:54 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:72) -Ошибка подключения к серверу
+java.net.ConnectException: Connection refused: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:580) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:569) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:581) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.net.Socket.connect(Socket.java:666) ~[?:?]
+	at java.net.Socket.connect(Socket.java:600) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:509) ~[?:?]
+	at java.net.Socket.<init>(Socket.java:289) ~[?:?]
+	at com.example.network.client.ChatClient.openConnection(ChatClient.java:34) ~[classes/:?]
+	at com.example.network.client.ChatClient.<init>(ChatClient.java:29) ~[classes/:?]
+	at com.example.network.client.ChatController.<init>(ChatController.java:37) ~[classes/:?]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at javafx.fxml.FXMLLoader$ValueElement.processAttribute(FXMLLoader.java:941) ~[javafx-fxml-20-win.jar:?]
+	at javafx.fxml.FXMLLoader$InstanceDeclarationElement.processAttribute(FXMLLoader.java:983) ~[javafx-fxml-20-win.jar:?]
+	at javafx.fxml.FXMLLoader$Element.processStartElement(FXMLLoader.java:230) ~[javafx-fxml-20-win.jar:?]
+	at javafx.fxml.FXMLLoader$ValueElement.processStartElement(FXMLLoader.java:757) ~[javafx-fxml-20-win.jar:?]
+	at javafx.fxml.FXMLLoader.processStartElement(FXMLLoader.java:2853) ~[javafx-fxml-20-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2649) ~[javafx-fxml-20-win.jar:?]
+	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2563) ~[javafx-fxml-20-win.jar:?]
+	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2531) ~[javafx-fxml-20-win.jar:?]
+	at com.example.network.client.ChatApplication.start(ChatApplication.java:17) ~[classes/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839) ~[javafx-graphics-20-win.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483) ~[javafx-graphics-20-win.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456) ~[javafx-graphics-20-win.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455) ~[javafx-graphics-20-win.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[javafx-graphics-20-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-20-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185) ~[javafx-graphics-20-win.jar:?]
+	at java.lang.Thread.run(Thread.java:1623) [?:?]
+INFO  2024-03-20 01:52:18 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 01:52:33 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 01:52:33 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 01:52:33 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:03:14 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:03:19 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:03:19 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:03:19 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:04:50 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:04:50 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:04:50 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:06:39 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:06:44 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:06:44 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:06:44 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:07:31 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:07:31 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:07:31 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:07:49 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:07:58 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:07:58 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:07:58 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:11:58 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:12:01 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:12:01 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:12:01 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:13:01 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:13:06 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:13:06 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:13:06 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:15:14 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:16:14 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:16:14 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:16:14 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:17:04 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:17:27 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:17:27 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:17:27 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:19:26 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:19:33 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:19:33 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:19:33 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:19:50 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:19:50 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:19:50 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:20:47 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:20:47 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:20:47 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:21:10 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:21:10 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:21:10 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:22:23 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:22:23 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:22:23 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:22:42 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:22:46 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:22:46 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:22:46 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:23:07 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:23:07 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:23:07 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:24:46 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:24:46 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:24:46 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:25:19 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:25:19 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:25:19 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:26:17 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-20 02:26:21 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-20 02:26:21 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-20 02:26:21 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-21 21:05:36 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-03-21 21:05:41 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-03-21 21:05:41 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-03-21 21:05:41 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-04-16 18:24:13 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-04-16 18:24:16 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-04-16 18:24:16 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-04-16 18:24:17 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
+INFO  2024-04-16 18:26:07 [main] com.example.network.server.Server (Server.java:28) -Клиент подключился
+INFO  2024-04-16 18:26:07 [JavaFX Application Thread] com.example.network.client.ChatClient (ChatClient.java:35) -Подключились к серверу
+INFO  2024-04-16 18:26:07 [main] com.example.network.server.Server (Server.java:26) -Ожидаем подключения клиента
